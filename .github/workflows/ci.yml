@@ -918,7 +918,6 @@ jobs:
       matrix:
         include:
           - { arch: amd64, runner: compiler-8cpu }
-          - { arch: arm64, runner: compiler-8cpu }
     permissions:
       contents: read
       packages: write
